@@ -1,8 +1,8 @@
 cask "wsddn" do
-  version "1.14"
-  sha256 "877c3bb78935772366c489391c0ff05cfe5728c8fbcd03cd176bd3e23214f449"
+  version "1.14.1"
+  sha256 "904fcf09294dc60cd3da29f83530a2468eb639dd903c41f7728268c3abe1657f"
 
-  url "https://github.com/gershnik/wsdd-native/releases/download/v#{version}/wsddn-macos-#{version}.pkg" 
+  url "https://github.com/gershnik/wsdd-native/releases/download/v#{version.major_minor}/wsddn-macos-#{version}.pkg" 
   name "WS-Discovery Host Daemon"
   desc "Allows your Mac to be discovered by Windows 10 and above systems and displayed by their Explorer \"Network\" views."
   homepage "https://github.com/gershnik/wsdd-native"
