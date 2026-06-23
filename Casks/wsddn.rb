@@ -1,6 +1,6 @@
 cask "wsddn" do
-  version "1.24"
-  sha256 "6f9ed624475b3e6d44c23243d016fd4f54a520590a320987d016f1ef03152863"
+  version "1.25"
+  sha256 "5c48776bf8906e560a16e4b730478cf9bd56d6b75b07b585e7afcbf464ad61d9"
 
   url "https://github.com/gershnik/wsdd-native/releases/download/v#{version.major_minor}/wsddn-macos-#{version.major_minor}.pkg"
   name "WS-Discovery Host Daemon"
