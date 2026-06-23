@@ -4,7 +4,7 @@ cask "wsddn" do
 
   url "https://github.com/gershnik/wsdd-native/releases/download/v#{version.major_minor}/wsddn-macos-#{version.major_minor}.pkg"
   name "WS-Discovery Host Daemon"
-  desc "Allows your Mac to be discovered by Windows 10 and above systems and displayed by their Explorer \"Network\" views"
+  desc "Allows your Mac to be discovered by systems running Windows 10 or later and to appear in their Explorer \"Network\" view."
   homepage "https://github.com/gershnik/wsdd-native"
 
   livecheck do
