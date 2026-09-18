@@ -1,5 +1,5 @@
 cask "wsddn" do
-  version "1.27"
+  version "1.27.1"
   sha256 "cea37c6d981c800d9a14ea6612555027c28302ec614b050b65cc73ddf65ecb76"
 
   url "https://github.com/gershnik/wsdd-native/releases/download/v#{version.major_minor}/wsddn-macos-#{version.major_minor}.pkg"
@@ -13,7 +13,7 @@ cask "wsddn" do
     strategy :page_match
   end
 
-  depends_on macos: :catalina
+  depends_on macos:
 
   pkg "wsddn-macos-#{version.major_minor}.pkg"
 
