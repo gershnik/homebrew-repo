@@ -13,7 +13,7 @@ cask "wsddn" do
     strategy :page_match
   end
 
-  depends_on macos:
+  depends_on :macos
 
   pkg "wsddn-macos-#{version.major_minor}.pkg"
 
